@@ -1,6 +1,6 @@
 # Transcribing Viennese Caricatures from "Wiener Caricaturen" Magazine (1897 Edition)
 # Overview
-This project was developed as part of the "Analyzing Central Europe's Intellectual Heritage" course at the University of Vienna. Its aim was to transcribe the first pages of the 1897 editions of the "Wiener Cariccaturen" newspaper. 
+This project was developed as part of the "Analyzing Central Europe's Intellectual Heritage" course at the University of Vienna. Its aim was to transcribe the first pages of the 1897 editions of the "Wiener Cariccaturen" magazine. 
 The editions are publicly accessible via the ANNO website at this [link](https://anno.onb.ac.at/cgi-content/anno?aid=wcc&datum=1897&zoom=33). 
 
 The transcription process involved encoding the first pages using the Oxygen XML Editor, following the TEI XML guidelines.
