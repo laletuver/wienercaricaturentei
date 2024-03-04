@@ -1,0 +1,1890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="j">Wiener Caricaturen</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>when="0017" when-custom="XVII. Jahrgang">XVII. Jahrgang</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Johann Nepomuk Vernay Druckerei- und Verlags AG</publisher>
+            <pubPlace>Wien</pubPlace>
+            <date when="1987">1987</date>
+         </publicationStmt>
+         <sourceDesc>
+            <listPlace>
+
+               <place xml:id="V">
+                  <placeName>
+                     <settlement type="city">Vienna</settlement>
+                     <country>Austria</country>
+                  </placeName>
+               </place>
+
+               <place xml:id="S">
+                  <placeName>Salon</placeName>
+                  <location>
+                     <settlement type="city">Vienna</settlement>
+                     <country>Austria</country>
+                  </location>
+                  <desc> A salon in Vienna was a gathering place where artists, intellectuals, and
+                     general society meet to share ideas and appreciate art. It served as a cultural
+                     hub, fostering creativity and discussion among Vienna's vibrant
+                     community.</desc>
+               </place>
+
+               <place xml:id="Tr">
+                  <placeName>Tramway</placeName>
+                  <location>
+                     <settlement type="city">Vienna</settlement>
+                     <country>Austria</country>
+                  </location>
+                  <desc> A horse drawn tramway from the 1900s.</desc>
+               </place>
+
+               <place xml:id="T">
+                  <placeName>Turf</placeName>
+                  <location>
+                     <settlement type="city">Vienna</settlement>
+                     <country>Austria</country>
+                  </location>
+                  <desc> A horse racing track.</desc>
+               </place>
+
+               <place xml:id="P">
+                  <placeName>Promenade</placeName>
+                  <location>
+                     <settlement type="city">Vienna</settlement>
+                     <country>Austria</country>
+                  </location>
+                  <desc>A public space designed for walking and leisurely strolling, often found in
+                     urban settings, along waterfronts, or in parks. </desc>
+               </place>
+
+               <place xml:id="B">
+                  <placeName>Bade</placeName>
+                  <location>
+                     <settlement type="city">Vienna</settlement>
+                     <country>Austria</country>
+                  </location>
+                  <desc>The act of bathing, whether in a lake, a river, or any body of water
+                     intended for swimming and bathing. </desc>
+               </place>
+
+               <place xml:id="Th">
+                  <placeName>Schlosstheater</placeName>
+                  <location>
+                     <settlement type="city">Vienna</settlement>
+                     <country>Austria</country>
+                  </location>
+               </place>
+
+
+
+
+            </listPlace>
+            <listPerson type="fictional">
+
+               <person xml:id="Venus">
+                  <note>Venus is illustrated as Roman goddess of love, beauty, sex and
+                     fertility.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="Mars">
+                  <persName>Mars</persName>
+                  <note>Mars is illustrated as God of War and agricultural guardian from Roman
+                     Mythology.</note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="die_alte_dame">
+                  <persName>Die Alte</persName>
+                  <note>An elderly woman, appearing sorrowful, clad in a long gown with a black
+                     headscarf, cradling a ring in her hands.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="die_junge_dame">
+                  <persName>Die junge</persName>
+                  <note>A youthful woman, donning a revealing outfit and bunny ears, with a
+                     cigarette perched between her lips, grasps an umbrella and smiles as she
+                     converses with the elderly lady .</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="herr1">
+                  <note>A gentleman, dressed in a tuxedo and adorned with a moustache and glasses,
+                     engages in conversation with a lady regarding her friend.</note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="dame1">
+                  <note>A woman, her hair curly, wearing a patterned coat, discusses her friend's
+                     engagement with a gentleman.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="künstler">
+                  <note> A gentleman clad in a tuxedo, donning glasses and a moustache, holds his
+                     hat as he expresses to a lady his desire to paint her..</note>
+                  <sex value="M">Male</sex>
+                  <occupation>An artist</occupation>
+               </person>
+
+               <person xml:id="dame2">
+                  <note>A lady, clad in a revealing dress and a mask covering her face, converses
+                     with the artist.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="pirat">
+                  <note>a gentleman dressed in a pirate costume for the Carnival, getting ready at
+                     home.</note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="referl">
+                  <persName>Referl</persName>
+                  <note>A housekeeper, donning a bonnet and a long skirt, is wiping her hands on her
+                     skirt.</note>
+                  <sex value="F">Female</sex>
+                  <occupation>housekeeper</occupation>
+               </person>
+
+               <person xml:id="gräffin">
+                  <persName>Frau Gräffin</persName>
+                  <note>A countess wearing a dress and talking to the male servant of her husband. </note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="diener">
+                  <note>A male servant adressing to the countess about count wanting to talk to
+                     her.</note>
+                  <sex value="M">Male</sex>
+                  <occupation>male servant</occupation>
+               </person>
+
+               <person xml:id="damemitfächer">
+                  <note>a lady is sitting in a chair, waving her fan in a revealing dress.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="herr2">
+                  <note>a gentleman is sitting next to the lady and looking at her. </note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="herr3">
+                  <note>a gentleman is leaning over the lady.</note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="dame3">
+                  <note>a lady is layig on a sofa in Salon and she put her hand to the chest of the
+                     gentleman in a stopping manner.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="ehefrau">
+                  <note>a wife in her night gown talking to her husband.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="ehemann">
+                  <note>a husband is sitting on a chair, his back to the audience, talking to his
+                     wife.</note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="herr4">
+                  <note>a gentleman is laying back and looking at the lady.</note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="dame4">
+                  <note>a lady is sitting on the ground while her hand is resting on the lap of the
+                     gentleman.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="dame_mono">
+                  <note>a lady in her undergarment is standing next to the vanity desk and having a
+                     monologue.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="schauspielerin">
+                  <note>a theater actress in a costume is talking to her helper behind the
+                     stage.</note>
+                  <sex value="F">Female</sex>
+                  <occupation>actress</occupation>
+               </person>
+
+               <person xml:id="dame5">
+                  <note>Al ady is standing next to the gentlemen.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="herr5">
+                  <note>a gentleman is greeting the lady by taking off his hat. </note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="damemitschal">
+                  <note>A lady is sitting on a sofa with her legs hanging from it, wearing a puffy
+                     schal.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="damemitlorgnette">
+                  <note>A lady is sitting in a horse pulled tram with other passengers and holding a
+                     lorgnette glasses.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="dame6">
+                  <note>A lady is standing somewhere in the horse racing arena and talking to
+                     ol_1.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="ol_1">
+                  <note> He is wearing his dress for riding a horse and holding a cane. He also has
+                     a cigarette on the side of his mouth.</note>
+                  <sex value="M">Male</sex>
+                  <occupation>Upper lieutenant</occupation>
+               </person>
+
+               <person xml:id="dame_mono1">
+                  <note>A lady is walking on the street and having a monologue by herself. </note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="herr6">
+                  <note>A gentleman who is sitting next to a lady is wearing a round hat, striped
+                     shirt and holding a walking cane in a cafe around promenade.</note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="dame7">
+                  <note>A lady with a hat that has a bird on it, is holding a walking cane and
+                     wearing a dark dress while sitting on the chair of a cafe around
+                     promenade.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="die_besucherin">
+                  <persName type="character">die besucherin</persName>
+                  <note>A lady who is sitting on a chair and wearing a long dress, a jacket and a
+                     nice hat and looking at the gentleman behind her while talking. </note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="herr7">
+                  <note>A gentleman in soldier uniform is leaning into the lady, sitting next to her
+                     and smiling.</note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="dame10">
+                  <note>A lady with a long dress with puffy arms is sitting on a chair in Salon and
+                     waving a fan while smiling at the gentleman sitting next to her. </note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="dame_mono2">
+                  <note>A lady is wearing a swimwear from her time with frills and puffy shoulders
+                     and sitting on a jumping board.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="närrin_dame">
+                  <persName type="character">Närrin</persName>
+                  <note>A lady is sitting next to a water source, possibly a river or so, is
+                     watching her friend fishing and she is referred as the(fool)</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="hermine">
+                  <persName>hermine</persName>
+                  <note>A lady is sitting next to a river and holding a fishing rod in hopes of
+                     catching a goldfish.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="dame11">
+                  <note>The lady is on the board of a ship with a gentleman and she is holding her
+                     hand flirtatiously towards him.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="herr8">
+                  <note>The gentleman, probably a sailor, is talking to the lady in a flirtatious
+                     way.</note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="Emil">
+                  <persName>Emil</persName>
+                  <note>The gentleman is the husband's friend and talking to his friend's wife while
+                     walking.</note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="Gattin">
+                  <persName type="character">Die Gattin</persName>
+                  <note>The lady is referred to as wife and walking next to her husband's friend
+                     Emil.</note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="Vater">
+                  <note>The gentleman is the father of a son who is talking to his son's love
+                     interest in an Asian influenced garden or a coffee place.</note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="dame12">
+                  <note>The lady is in a bar or coffee place, drinking a glass of an alcoholic
+                     beverage, possibly a champagne. </note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="herr9">
+                  <note>The gentleman is sitting with the a lady at night and holding a bottle of
+                     Alcoholic beverage in his hand.</note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="Gatte">
+                  <persName type="character">Hausherr und der Gatte</persName>
+                  <note>The husband and master of the house is holding a note that Oberlieutenant
+                     has broguht to him while sitting next to his wife.</note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="ol_2">
+                  <note>The Senior Lieteunant has brought a note and saluting the married couple in
+                     their house while standing.</note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="junge_Frau">
+                  <persName type="character">die junge Frau</persName>
+                  <note>The young lady and the wife is sitting and reading note with his husband and
+                     smiling.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="Radler">
+                  <persName role="character">Radler</persName>
+                  <note>The cyclist who is helping ladies who have a problem with their
+                     bicycles.</note>
+                  <sex value="M">Male</sex>
+                  <occupation>Bike mechanic</occupation>
+               </person>
+
+
+               <person xml:id="Radlerin">
+                  <persName role="character">Radlerin</persName>
+                  <note>The lady who is wearing a cyclist attire from the time is talking to the
+                     Radler.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="Jäger">
+                  <persName role="character">Der Jäger</persName>
+                  <note>An old hunter man in a cane talking to the huntress to give some
+                     advice.</note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="Jägerin">
+                  <persName role="character">Die schöne Liebesjägerin</persName>
+                  <note>The hunter lady in hunting attire is holding a rifle and talking to the old
+                     hunter</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="dame13">
+                  <note>A lady who is wearing a Foot Bracelet as a jewelry.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="eifersüchtige">
+                  <persName role="character">Der Eifersüchtige</persName>
+                  <note>Lady's jeaolous lover who is complementing her but at the same time shows a
+                     bit of jealousy about her ankle bracelet.</note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="narr_herr">
+                  <persName role="character">Der Narr Herr</persName>
+                  <note>A gentleman who is making foolish comments on lady's ankle bracelet.</note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="herr11">
+                  <note>A high rank soldier is talking to a lady while holding a bottle of champagne
+                     in his hand and a glass on the other. </note>
+                  <sex value="M">Male</sex>
+                  <occupation>soldier</occupation>
+               </person>
+
+               <person xml:id="dame14">
+                  <note>a lady who is holding a glass of champagne and talking to a soldier.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="regisseur">
+                  <persName role="character">Regisseur des Schlosstheater.</persName>
+                  <note>The director of the theater is standing at the backstage of Schlosstheater
+                     and talking to Baron about changing the wardrobe of the performers.</note>
+                  <sex value="M">Male</sex>
+                  <occupation>Director of the theather.</occupation>
+               </person>
+
+               <person xml:id="Baron">
+                  <persName role="character">Baron.</persName>
+                  <note>Baron is helping the female performer in the Schloss theater to get into her
+                     shoes.</note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="erste_dame">
+                  <persName role="character">Die Erste Dame</persName>
+                  <note>The first female in the friend group of 3 who is sitting on a bench and
+                     making commands about the third friend with the second friend.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="zweite_dame">
+                  <persName role="character">Die Zweite Dame.</persName>
+                  <note>The second female in the friend group of 3 who is sitting on a bench and
+                     making commands about the third friend with first friend. </note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="Melitta">
+                  <persName>Melitta </persName>
+                  <note>The lady whose name is Melita is sitting next to a writing desk in her
+                     morning garments.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="herr12">
+                  <note>The husband of Melitta who is looking for papers to play scavenger
+                     hunt.</note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="dame15">
+                  <note>a newly married woman is talking to her husband.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="herr13">
+                  <note>a newly married husband hugging the legs of his wife.</note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="herr14">
+                  <note>a gentleman standing behing a young lady and smoking a cigar. </note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="dame16">
+                  <note>a young lady is playing with her hair in a bit of a revealing dress.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="dame17">
+                  <note>a lady who is giving pragmatic advice on love matters.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="dame18">
+                  <note>a naive and dreamy lady who doesn't accept gifts because of her sincerity. </note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="dame19">
+                  <note>a lady who is powdering herself and looking into mirror while her lover
+                     waits.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="herr15">
+                  <note>a gentleman who trusts his lover to not do anything behind his back. </note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="dame20">
+                  <note>a lady who is nervous about being alone with the oberliutenant.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="ol_3">
+                  <note>The oberlieutenant is reassuring the young lady for not thingking so bad. </note>
+                  <sex value="M">Male</sex>
+                  <occupation>oberlieteunent</occupation>
+               </person>
+
+               <person xml:id="dame21">
+                  <note>a lady is serving a cup of tea with sugar to her lieutenant friend while
+                     giving him advice about not going to the theater.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="dame22">
+                  <note>A Lady whose garter fells of which she takes it as a sign that one's lover
+                     will be unfaitful.</note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="herr16">
+                  <note>lady's love interest who is being skeptical aboout what she thinks about
+                     unfaitful lovers. </note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="dame23">
+                  <note>lady is getting ready while talking about her jealous admirer. </note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="dame24">
+                  <note>lady is giving advices to a friend with admirer. </note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="dame25">
+                  <note>lady with ice skates is talking to a gentleman on the ice rink. </note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="herr17">
+                  <note>gentleman who is wearing ice skates on the ice rink with a lady. </note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="herr18">
+                  <note>A gentleman is inquiring what has been written on the lady's letter. </note>
+                  <sex value="M">Male</sex>
+               </person>
+
+               <person xml:id="dame26">
+                  <note>A lady has received a proposal letter. </note>
+                  <sex value="F">Female</sex>
+               </person>
+
+               <person xml:id="dame27">
+                  <note>A lady who has received some diamonds as a gift. </note>
+                  <sex value="F">Female</sex>
+               </person>
+
+
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="de">
+      <body>
+         <div type="issue" n="1">
+            <p n="1">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag, den 3.Jänner 1897</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/>
+               <title type="sub">Der Jahresregent von 1897.</title><lb/></p>
+            <figure type="dialogue" xml:id="C1">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970103|1|100.0|0"/>
+               <figDesc>Venus and Mars are seated together on a couch, with a sword and helmet
+                  positioned beside Mars. Venus gently caresses Mars's cheek, her face hidden from
+                  view, while Mars, enjoying a cigar, rests his hand on her waist. Behind them
+                  unfolds a meadow scene, dotted with sheep. </figDesc>
+               <head type="secondary_title"><hi rend="uppercase">MARS</hi></head>
+               <p>Venus(zum Mars)<said who="#Venus" toWhom="Mars" aloud="true"> Das war ein
+                     g'scheiter Einfall von Dir, Schatzerl. dass D' beim <persName>Vulcan</persName>
+                     neuche Kanonen bestellt hast. Das sichert den Hausfrieden. Er arbeit't drauf
+                     los und sieht nit und hört nit und wir amusieren uns daweil ganz prächtig. Die
+                     neuchen Kanonen dienen also nur zur Friedensgarantie! </said>
+               </p>
+            </figure>
+            <p>Diese Nummer ist 12 Seiten stark.</p>
+         </div>
+
+         <div type="issue" n="2">
+            <p n="2">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag, den 10.Jänner 1897</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="narration" xml:id="C2">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970110|1|100.0|0"/>
+               <figDesc>A woman with dark hair, clutches a fan in one hand and cradles a miniature
+                  clown in the other. Above her, five figures in costumes make an appearance, among
+                  them two Roman mythological characters engaged in a dance.</figDesc>
+               <head type="secondary_title"><hi rend="uppercase">CARNEVAL</hi></head>
+               <p>Der Carneval ist ins Land gekommen. Die armen<lb/> Leute, die ihr tägliches Brot
+                  nicht bezahlen können, sehen<lb/> sich genöthigt auf Credit kuchen zu essen;
+                  Schuster und <lb/>Schneiber sind mit der Ausbesserung der vorjährigen Ball-<lb
+                     break="no"/> toiletten beschäftigt; in den Restaurants werden die Cham-<lb
+                     break="no"/> pagner eingekühlt, aber nur Defraudanten oder Millionäre<lb/>
+                  machen bis und da Gebrauch davon; die Alt-Wiener Ge-<lb break="no"/> müthlichkeit
+                  kommt wieder zu Ehren, auf dem Ball der <placeName>Stadt Wien</placeName> sieht
+                  man keine Juden, auf dem Ball der<lb/> jüdischen Zeitungsschreiber keine Christen,
+                  kurz, überall<lb/> lustiger Hader, fröhliche Zerwürfsnisse, übermüthige
+                  fasching<lb/>- trauer. Das ist der Wiener Carneval <foreign xml:lang="fr">fin de
+                     siecle <lb/> - fin de Si</foreign> -- edelhafteres gibt es schon gar nicht.</p>
+            </figure>
+            <p>Diese Nummer ist 12 Seiten stark.</p>
+         </div>
+
+         <div type="issue" n="3">
+            <p n="3">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 17. Jänner 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C3">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970117|1|100.0|0"/>
+               <figDesc>A youthful woman, attired in a scant black dress and bunny ears, holds an
+                  umbrella and a cigarette, directing her attention towards an elderly lady. This
+                  older woman, wearing a long dress and a black headscarf, seems downcast as she
+                  inspects a ring nestled in a box in her grasp.</figDesc>
+               <head type="secondary_title"><hi rend="uppercase">KLEINE GESCHENKE</hi></head>
+               <p><hi rend="bold">Die Alte</hi><said who="#die_alte_dame" aloud="true">Is nur die
+                     Frag, ob das echt is?</said></p>
+               <p><hi rend="bold">Die Junge</hi><said who="#die_junge_dame" aloud="true">Na und ob!
+                     Er hat ausdrücklich gesagt, so echt, wie meine Liebe -</said></p>
+               <p><hi rend="bold">Die Junge</hi><said who="#die_alte_dame" aloud="true">Da wär's
+                     aber doch gerathen, die Sachen beim Juwelier schätzen zu lassen...</said></p>
+            </figure>
+            <p>Diese Nummer ist 12 Seiten stark.</p>
+         </div>
+
+         <div type="issue" n="4">
+            <p n="4">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 24. Jänner 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C4">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970124|1|100.0|0"/>
+               <figDesc> A gentleman and a lady are engaged in a discussion. The lady, with curly
+                  hair, is clad in a patterned coat, while the gentleman, sporting glasses and a
+                  moustache, is dressed in a tuxedo.</figDesc>
+               <head type="secondary_title"><hi rend="bold">Moderne Jugend</hi></head>
+               <p><said who="#herr1" toWhom="#dame1" aloud="true">Ihre Freundin
+                        <persName>Bella</persName>hat sich verlobt?</said></p>
+               <p><said who="#dame1" toWhom="#herr1" aloud="true">So ziemlich!
+                  Provissorisch!</said></p>
+               <p><said who="#herr1" toWhom="dame1" aloud="true">Aha, er will erst ihren Charakter
+                     prüfen.</said></p>
+               <p><said who="#dame1" toWhom="#herr1" aloud="true">Das nicht - eher die Bilanz ihres
+                     Papas.</said></p>
+            </figure>
+            <p>Diese Nummer ist 12 Seiten stark.</p>
+         </div>
+
+         <div type="issue" n="5">
+            <p n="5">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 31. Jänner 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C5">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970131|1|100.0|0"/>
+               <figDesc> A lady, clad in a revealing outfit, has a mask covering her face and is
+                  pulling back the sides of her dress. Nearby, an artist, distinguished by his
+                  glasses and moustache, is dressed in a tuxedo and holds his hat in his right
+                  hand.</figDesc>
+               <head type="secondary_title"><hi rend="uppercase">Geheimnisse</hi></head>
+               <p><said who="#künstler" toWhom="#dame2" aloud="true">Famoses Modell! Fräulein,
+                     wollen's mich <date>morgen Abend</date><time>acht Uhr</time> in meinem Atelier
+                     besuchen?</said></p>
+               <p><said who="#dame2" toWhom="#künstler" aloud="true">Na, wissen's, Herr Künstler ich
+                     bin a Nachtmahlerin, daß Sie aber auch ein Nachtmaler fan, dös hab i nit
+                     g'wußt.</said></p>
+            </figure>
+            <p>Diese Nummer ist 12 Seiten stark.</p>
+         </div>
+
+         <div type="issue" n="6">
+            <p n="6">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 7. Februar 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C6">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970207|1|100.0|0"/>
+               <figDesc> A man dressed as a pirate is speaking to a housekeeper named Referl, who is
+                  donning a lace bonnet and cleaning her hands on her skirt. </figDesc>
+               <head type="secondary_title"><hi rend="Uppercase">Im Carneval</hi></head>
+               <p><said who="#pirat" toWhom="#referl" aloud="true">Nun,Referl, wie gefalle ich Dir
+                     in diesem Kostüme?</said></p>
+               <p><said who="#referl" toWhom="#pirat" aloud="true"> Sehr gespaßig schaut der gnä‘
+                     Herr aus – wann ich den gnä‘ hernnn icht kennen thät, möcht‘ ich glauben, er is
+                     narrisch worden.</said></p>
+            </figure>
+         </div>
+
+         <div type="issue" n="7">
+            <p n="7">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 14. Februar 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C7">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970214|1|100.0|0"/>
+               <figDesc> A countess,dressed formally, is conversing with her husband's maidservant,
+                  who is positioned near the window.</figDesc>
+               <head type="secondary_title"><hi rend="uppercase">Aus der Gesellschaft</hi></head>
+               <p><said who="#diener" toWhom="#gräffin" aloud="true">Der herr Graf lassen die
+                     gnädigste Frau Gräffin auf ein Wort bitten.</said></p>
+               <p><said who="#gräffin" toWhom="#diener" aloud="true"> Auf Ein Wort? Das wundert mich
+                     – es müssen doch wenigstens drei Rechnunden gekommen sein! </said></p>
+            </figure>
+         </div>
+
+         <div type="issue" n="8">
+            <p n="8">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 21. Februar 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C8">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970221|1|100.0|0"/>
+               <figDesc> In a salon, a lady seated in a chair, holding a fan, wears a hat and a
+                  revealing dress, her gaze meeting the viewer's directly. Beside her, a gentleman
+                  adorned with oval glasses and a moustache is seated, his attention fixed on the
+                  lady.</figDesc>
+               <head type="secondary_title"><hi rend="uppercase"><placeName ref="#S"/>Im
+                  Salon</hi></head>
+               <p><said who="#herr2" toWhom="#damemitfächer" aloud="true">Es ist nicht schön von
+                     Ihnen, daß Sie sich einen Mann lustig machen, der liebt Sie</said></p>
+               <p><said who="#damemitfächer" toWhom="#herr2">Undantbarer! Ist es Ihnen nicht recht,
+                     daß mich Ihre Liebe fröhlich macht? Zur Traurigkeit habe ich ja Zeit, bis Sie
+                     Gegenliebe von mir fordern.</said></p>
+            </figure>
+         </div>
+
+         <div type="issue" n="9">
+            <p n="9">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 28. Februar 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="narration" xml:id="C9">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970228|1|100.0|0"/>
+               <figDesc>A lady, attired in a dress and a large hat, is gracefully holding up her
+                  skirt as she dances.</figDesc>
+               <head type="secondary_title"><hi rend="uppercase">Prosit Carneval</hi></head>
+               <p>Auch ein Mitglied der Frauenbewegung. </p>
+            </figure>
+         </div>
+
+         <div type="issue" n="10">
+            <p n="10">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 7. März 1897.</date><lb/> Preis
+               einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C10">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970307|1|100.0|0"/>
+               <figDesc>A lady is reclining on a sofa, her left hand is touching gentleman's neck
+                  who stands beside her, yet leans towards her. </figDesc>
+               <head type="secondary_title"><hi rend="uppercase"><placeName ref="S">Im
+                        Salon</placeName></hi></head>
+               <p><said who="#herr3" toWhom="#dame3" aloud="true">Bitte, feine Liebesscene. Der Weg
+                     zu meinem herzen geht nur an dem Traualtar vorbei.</said></p>
+               <p><said who="#dame3" toWhom="#herr3" aloud="true">Leider zu groß Umweg für
+                     mich!</said></p>
+            </figure>
+         </div>
+
+         <div type="issue" n="11">
+            <p n="11">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 14. März 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C11">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970314|1|100.0|0"/>
+               <figDesc> Inside a bedroom, a wife and husband are engaged in an argument. The wife,
+                  clad in a nightgown, stands while the husband sits on a chair, his gaze fixed on
+                  her. </figDesc>
+               <head type="secondary_title">Weibliche Wahltaktik.</head>
+               <p><said who="#ehefrau" toWhom="#ehemann" aloud="true">Du, Mann! Geh, gib mir Dein
+                     Stimmzettel!</said></p>
+               <p><said who="#ehemann" toWhom="#ehefrau" aloud="true">Tschapperl, zu was brauchst'n
+                     denn?</said></p>
+               <p><said who="#ehefrau" toWhom="#ehemann" aloud="true">Ich kauf mir ein neuchen
+                     früjahrshut dafür!</said></p>
+               <p><said who="ehemann" toWhom="ehefrau" aloud="true">Du hast'n. Mehr is er eh nit
+                     werth.</said></p>
+            </figure>
+            <p>Diese Nummer ist 10 Seiten stark.</p>
+         </div>
+
+         <div type="issue" n="12">
+            <p n="12">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 21. März 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C12">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970321|1|100.0|0"/>
+               <figDesc>aA lady is seated on the floor, her arm resting on the lap of a gentleman
+                  who is reclined back.</figDesc>
+               <head type="secondary_title">Frühlings = Ahnung</head>
+               <p><said who="#herr4" toWhom="#dame4" aloud="true">Ach, meine Angebetete, wie
+                     herrlich ist die Zeir, wenn die Schwalben wiederkommen.</said></p>
+               <p><said who="#dame4" toWhom="#herr4" aloud="true">Und erst die Störche!</said></p>
+            </figure>
+         </div>
+
+         <div type="issue" n="13">
+            <p n="13">
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 28. März 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="poem" xml:id="C13">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970328|1|100.0|0"/>
+               <figDesc>A winged woman adorned with a crown of flowers in her hair grasps a branch
+                  in full spring bloom. To her left, a cherub scatters petals, while another cherub
+                  exhales breezes to dispel figures associated with winter. </figDesc>
+               <head type="secondary_title">Winter-Kehraus.</head>
+               <lg rhyme="abab">
+                  <l>Nicht wahr, nun kriegt Ihr flinte Beine,</l>
+                  <l>Erlog'ne Winterfreuden,</l>
+                  <l>Die sich bei falschem Lichterscheine</l>
+                  <l>In eitel Luft verkleiden?</l>
+                  <l>Beim ersten Blick der frühlingsfee,</l>
+                  <l>Wie seid Ihr rasch verblichen,</l>
+                  <l>Wie schrumpft Ihr ein in ihrer Näh',</l>
+                  <l>Die Schminke ist gewichen.</l>
+                  <l>Die hand bewehrt mit grünem Zweige,</l>
+                  <l>Jagt sie Euch vor sich her,</l>
+                  <l>Des Ballsaaltaumels Wundergeige</l>
+                  <l>hat keinen Zauber mehr.</l>
+                  <l>Und Sing und Sang, und Kling und Klang,</l>
+                  <l>Aus goldbezahlten Kehlen -</l>
+                  <l>Bei erster Lerche Gratis Sang</l>
+                  <l>Von dannen sie sich stehlen.</l>
+               </lg>
+            </figure>
+            <p>Diese Nummer ist 12 Seiten stark.</p>
+         </div>
+
+         <div type="issue" n="14">
+            <p n="14">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 4. April 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="monologue" xml:id="C14">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970404|1|100.0|0"/>
+               <figDesc>a lady in her undergarments stands besides her vanity table.</figDesc>
+               <head type="secondary_title"><hi rend="uppercase">Untimes</hi></head>
+               <p><said who="#dame_mono" aloud="unknown">Wenn er mich so sieht und ich ihm dann
+                     sage, daß er von einem tugendhaften Mädchen nichts Unanständiges verlangen kann
+                     – denn wird er blechen, daß die Schindeln vom Dach fällen.</said></p>
+            </figure>
+         </div>
+
+         <div type="issue" n="15">
+            <p n="15">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 11. April 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C15">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970411|1|100.0|0"/>
+               <figDesc>An actress in costume, holding a walking stick and wearing a large hat,
+                  speaks to her assistant while placing her foot on the assistant's lap for
+                  assistance in changing her shoes.</figDesc>
+               <head type="secondary_title"><hi rend="uppercase">Hinter den Coulissen</hi></head>
+               <p><said who="#schauspielerin" aloud="true"> Nein, dieses Pech! Jetzt sitzen meine
+                     zwei Schätze in einer un derselben Loge neben einander. </said></p>
+            </figure>
+         </div>
+
+         <div type="issue" n="16">
+            <p n="16">
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 18. April 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="poem" xml:id="C16">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970418|1|100.0|0"/>
+               <figDesc> A woman, clad in her nightgown, holds an Easter egg-shaped present from
+                  which figurines of a gentleman, possibly the lieutenant referenced in the poem,
+                  emerge. To the left side of the page, an Easter bunny and an Easter egg adorn the
+                  bedside table. On the right, a newly blossomed narcissus heralds the arrival of
+                  Spring. Beneath the picture, two gnomes seem to be observing the eggs.</figDesc>
+               <head type="secondary_title">der Oster = Lieutenant </head>
+               <lg rhyme="abab">
+                  <l>D, scheltet sie nur nicht frivol,</l>
+                  <l>Weil ihr der schmude Lieutenant </l>
+                  <l>Erscheint als österlich Symbol,</l>
+                  <l>Als frohe Botschaft, ihr gesandt.</l>
+                  <l>Daß Jugendlust und Frühlingslust</l>
+                  <l>Ein ewig Auferstehungsfest,</l>
+                  <l>Der Herzensglöckner in der Brust</l>
+                  <l>Die Freudenglocken flingen läßt.</l>
+                  <l>Nur Eines schmälert ihre freude - :</l>
+                  <l>Daß Lieutenant nicht lebendig ist,</l>
+                  <l>Und daß zu ihrem herzensleide</l>
+                  <l>Er nicht mit warmen Lippen küßt.</l>
+               </lg>
+            </figure>
+         </div>
+
+         <div type="issue" n="17">
+            <p n="17">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 25. April 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C17">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970425|1|100.0|0"/>
+               <figDesc>A gentleman, cane in hand, greets the lady by doffing his hat, while she
+                  stands beside him, holding the side of her skirt.</figDesc>
+               <head type="secondary_title">Emancipiertes.</head>
+               <p><said who="#dame5" toWhom="#herr5" aloud="true">Woher kennen Sie mich, mein
+                     herr?</said></p>
+               <p><said who="#herr5" toWhom="#dame5" aloud="true">Fräulein sind mir als sehr
+                     tüchtige heilkünstlerin für herztrantheiten empfohlen worden.</said></p>
+            </figure>
+         </div>
+
+         <div type="issue" n="18">
+            <p n="18">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 2. Mai 1897.</date><lb/> Preis
+               einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C18">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970502|1|100.0|0"/>
+               <figDesc>The Oberlieutenant is seated behind, engrossed in reading a newspaper, while
+                  the lady is perched on a sofa in the foreground of the page, her legs visible,
+                  adorned with a puffy scarf.</figDesc>
+               <head type="secondary_title">Wünschenswerthes Avancement</head>
+               <p><said who="#damemitschal" aloud="true">Oberlieutenant in der Reserve ist mein Mann
+                     geworden! Ich bin nur neugierig, wann er aus der Reserve treten und sich activ
+                     machen lassen wird.</said></p>
+            </figure>
+         </div>
+
+         <div type="issue" n="19">
+            <p n="19">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 9. Mai 1897.</date><lb/> Preis
+               einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C19">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970509|1|100.0|0"/>
+               <figDesc>A lady, clutching lorgnette glasses in her hand, is seated in a horse-drawn
+                  tram alongside other passengers. </figDesc>
+               <head type="secondary_title"><hi rend="uppercase"><placeName ref="Tr">Auf der
+                        Pferdebahn</placeName></hi></head>
+               <head type="subtitle">Frauenlogik.</head>
+               <p><said who="#damemitlorgnette" aloud="true">Nein, diese <placeName ref="Tr"
+                        >Tramway</placeName> ist eine odiose Erfindung. Gott sei Dank, daß mein Mann
+                     ein paar hundert Actien davon besitzt, was uns in die Lage versetzt, sie recht
+                     selten benützen zu müssen.</said></p>
+            </figure>
+         </div>
+
+         <div type="issue" n="20">
+            <p n="20">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 16. Mai 1897.</date><lb/> Preis
+               einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C20">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970516|1|100.0|0"/>
+               <figDesc> A gentleman, a lady, and an Oberlieutenant stand together at a horse racing
+                  arena. The lady and the Oberlieutenant are engaged in conversation, while the
+                  gentleman examines a piece of paper in his hand.</figDesc>
+               <head type="secondary_title"><placeName ref="T">Vom Turf</placeName></head>
+               <p><said who="#dame6" toWhom="#ol_1" aloud="true">Herr Oberlieutenant, wir wetten ihr
+                     Pferd.</said></p>
+               <p><said who="#ol_1" toWhom="#dame6" aloud="true">Wie komme ich zu dieser
+                     Auszeichnung, Gnädigste?</said></p>
+               <p><said who="#dame6" toWhom="#ol_1" aloud="true">Man sagt mir, Sie siegen stets, wie
+                     Sie wollen.</said></p>
+               <p><said who="#ol_1" toWhom="#dame6" aloud="true">Aber leider nicht immer, wo ich
+                     will.</said></p>
+            </figure>
+         </div>
+
+         <div type="issue" n="21">
+            <p n="21">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 23. Mai 1897.</date><lb/> Preis
+               einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="monologue" xml:id="C21">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970523|1|100.0|0"/>
+               <figDesc>A lady walks down the street, aware that a gentleman further behind is
+                  observing her.</figDesc>
+               <head type="secondary_title">Straßenmonolog.</head>
+               <p><said who="#dame_mono1" aloud="unknown">Schon wieder Einer, der sich ehrbar
+                     annähert, minder ehrbare Absichten hat, und dann nach Erreichung derselbenganz
+                     unehrbar zu verduften.</said></p>
+            </figure>
+         </div>
+
+         <div type="issue" n="22">
+            <p n="22">
+               <placeName ref="#">Wien</placeName><date>Sonntag den 30. Mai 1897.</date><lb/> Preis
+               einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="poem" xml:id="C22">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970530|1|100.0|0"/>
+               <figDesc>A woman, her back turned to the audience, stands in a meadow holding an
+                  umbrella, surrounded by ripening ears of wheat. </figDesc>
+               <head type="secondary_title">In Aehren</head>
+               <lg rhyme="abab">
+                  <l>Kornmännchen wispert ein süßes Lied,</l>
+                  <l>Die heiße Sommerluft zittert.</l>
+                  <l>Die Aehren rauschen, der Mohn erglüht,</l>
+                  <l>Es hat in der Ferne gewittert.</l>
+                  <l>Zwei Menschenkinder, zehrend durchglüht,</l>
+                  <l>Kornmännchen wispert ein süßes Lied,</l>
+                  <l>Von Sehnen und Hangen und Bangen.</l>
+                  <l>Die Halme, sie stehen hoch und dicht </l>
+                  <l>Und können ein Nestchen gewähren.</l>
+                  <l>Zwei jungen Seelen. Warum denn nicht?</l>
+                  <l>Natürlich, nur alles in – Aehren ...</l>
+               </lg>
+            </figure>
+         </div>
+
+         <div type="issue" n="23">
+            <p n="23">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 6. Juni 1897.</date><lb/> Preis
+               einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C23">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970606|1|100.0|0"/>
+               <figDesc> A gentleman and a lady are seated close by at what appears to be a coffee
+                  place. The gentleman gazes at her, while the lady looks towards the
+                  reader.</figDesc>
+               <head type="secondary_title"><placeName ref="P">Auf der Promenade</placeName></head>
+               <p><said who="#herr6" toWhom="#dame7" aloud="true">Ihre Neigungen scheinen sehr
+                     veränderlich zu sein.</said></p>
+               <p><said who="#dame7" toWhom="#herr7" aloud="true">Aber ich bitte Sie, die Course auf
+                     der Börse ändern sich auch fortwährend.</said></p>
+            </figure>
+         </div>
+
+         <div type="issue" n="24">
+            <p n="24">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 13. Juni 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C24">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970613|1|100.0|0"/>
+               <figDesc>In what might be a bedroom setting, two ladies are seated. One lady is
+                  removing her shoes, sitting on the jacket she has taken off, while the other,
+                  adorned with a round hat and leaning towards her friend, engages in conversation.
+                  Both are dressed in Edwardian-style women's trousers, and they are possibly
+                  wearing gaiters.</figDesc>
+               <head type="secondary_title">Wiener Humoresken</head>
+               <p><said who="dame8" toWhom="dame9" aloud="true">Is wahr, Du gehst nit mehr mit’n
+                     Schani?</said></p>
+               <p><said who="#dame9" toWhom="#dame8" aloud="true">Ja, denf Dir nur, der Depp kummt
+                     gestern und macht mir den Antrag, er will mich heiraten und ich soll nur für
+                     ihn allein leben.</said></p>
+               <p><said who="#dame8" toWhom="#dame9" aloud="true">Na,und was hast ihm
+                  g’sagt?</said></p>
+               <p><said who="#dame9" toWhom="#dame8" aloud="true">Ich hab ihm g’sagt:<q>hörst,
+                        Schani, Du solltest an Doktor insultiren, denn mir scheint, Du bist
+                        gemüthskrank im Gehirn.</q> Und da is er wie narrisch
+                  davong’loffen.</said></p>
+            </figure>
+         </div>
+
+         <div type="issue" n="25">
+            <p n="25">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 20. Juni 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C25">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970620|1|100.0|0"/>
+               <figDesc>Two ladies are seated on chairs, with a gentleman standing behind them. One
+                  lady is finely dressed, complete with her hat and cane, while the other appears
+                  underdressed, likely in her undergarments, with one of her shoulder straps
+                  slipping off. The well-dressed, visiting lady gazes at the gentleman as she
+                  speaks.</figDesc>
+               <head type="secondary_title">Frauenfreundschaft.</head>
+               <p><hi rend="italic">Die Besucherin</hi><said who="#die_besucherin" aloud="true"
+                     >Aber, lieber Freund, Sie brauchen gar nicht so verlegen zu sein, weil ich Sie
+                     hier bei meiner Freundin überrascht habe. <q>Unter Kamaradinnen ist ja das
+                        egal.</q> Sie wird Sie schon mit der Zeit für Ihre Untreue an mir bestrafen.
+                  </said></p>
+            </figure>
+         </div>
+
+         <div type="issue" n="26">
+            <p n="26">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 27. Juni 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C26">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970627|1|100.0|0"/>
+               <figDesc> In a salon, a lady seated on a chair waves a fan and smiles sweetly. Beside
+                  her, a gentleman, possibly clad in a soldier's uniform, smiles and leans in
+                  towards her to converse.</figDesc>
+               <head type="secondary_title"><hi rend="uppercase"><placeName ref="S">Im
+                        Salon</placeName></hi></head>
+               <p><said who="#herr7" toWhom="#dame10" aloud="true">Ich sehe den Spott auf Ihren
+                     schönen Lippen. Sie glauben also nicht an die Beständigkeit meine Schwüre?
+                  </said></p>
+               <p><said who="#dame10" toWhom="#herr7" aloud="true">O ja, ich glaube schon, daß Sie
+                     bei Damen beständig schwören...</said></p>
+            </figure>
+         </div>
+
+         <div type="issue" n="27">
+            <p n="27">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 4. Juli 1897.</date><lb/> Preis
+               einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="monologue" xml:id="C27">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970704|1|100.0|0"/>
+               <figDesc> A lady, clad in swimwear and donning a hat, sits on a diving board,
+                  appearing somewhat frustrated. Below her, a man watches, sporting a flirtatious
+                  expression in an attempt to catch her attention. </figDesc>
+               <head type="secondary_title"><hi rend="uppercase"><placeName ref="B">Im
+                        Bade</placeName></hi></head>
+               <p><said who="#dame_mono2" aloud="unknown">Frechheit von dem Menschen, immer um mich
+                     herum zu schwimmen und ich darf nicht einmal merken lassen, daß ich’s bemerke –
+                     sonst müßte ich ja fortgehen...</said></p>
+            </figure>
+         </div>
+
+         <div type="issue" n="28">
+            <p n="28">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 11. Juli 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C28">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970711|1|100.0|0"/>
+               <figDesc> Two ladies are seated beside a water source, with one of them holding a
+                  fishing rod behind her. They are adorned in long dresses and colorful hats. </figDesc>
+               <head type="secondary_title">die feine Fischerin</head>
+               <p><said who="#närrin_dame" toWhom="#hermine" aloud="true">Ich begreife Dich
+                     wahrhaftig nicht, hermine, fischen an und für dich ist schon langweilig genug
+                     und nun schleppst Du Dir auch noch den langweiligen Musjeh mit. </said></p>
+               <p><said who="#hermine" toWhom="#närrin_dame" aloud="true">Aber, Närrin, das ist ja
+                     der Goldfisch, den ich in’s Netz kriegen will. </said></p>
+            </figure>
+            <p>Diese Nummer ist 12 Seiten stark.</p>
+         </div>
+
+         <div type="issue" n="29">
+            <p n="29">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 18. Juli 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C29">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970718|1|100.0|0"/>
+               <figDesc> A lady sits aboard a ship, with the sails visible in the background. She
+                  extends her hand in a flirtatious manner, possibly towards a sailor or another
+                  seafaring individual.</figDesc>
+               <head type="secondary_title">Seekrank.</head>
+               <p><said who="#dame11" toWhom="#herr8" aloud="true">Ich leide an der Seekrankheit des
+                     herzens und nur Sie könne mich davon curiren.</said></p>
+               <p><said who="#herr8" toWhom="#dame11" aloud="true"/>Seekrankheit verschwindet,
+                  sobald man an’s Land tritt. Wie Sie das Schiff verlassen, denkt Ihr herz nicht
+                  mehr daran und die voreilig hilfsbereite Doctorin hätte das Nachsehen...</p>
+            </figure>
+            <p>Diese Nummer ist 12 Seiten stark.</p>
+         </div>
+
+         <div type="issue" n="30">
+            <p n="30">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 25. Juli 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C30">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970725|1|100.0|0"/>
+               <figDesc> A wife walks alongside her husband's friend Emil, who looks downward while
+                  walking and holding a newspaper. They are engaged in a conversation.In the
+                  foreground, a lady is seen putting on her shoes, while in the background, steam
+                  and shower heads are visible. </figDesc>
+               <head type="secondary_title">Tolerante Frauen.</head>
+               <p><hi rend="bold">Die Gattin:</hi><said who="#Gattin" toWhom="#Emil" aloud="true"
+                     >Siehst du, Emil, ich bin gewiß keine intolerante frau, und nicht so
+                     unvernünftig, zu begehren, daß du nie eine Andere hübsch finden sollst.
+                     Wahrhafti liebst Du ja doch nur mich ... </said></p>
+               <p><hi rend="bold">Die freunding der Mannes</hi><said who="#Emil" toWhom="#Gattin"
+                     aloud="true">Man muß tolerant gegen Ehemänner sein und ein Auge zudrücken, wenn
+                     sie von Zeit zu Zeit einen Anfall von eheliher Reue haben...</said></p>
+            </figure>
+            <p>Diese Nummer ist 12 Seiten stark.</p>
+         </div>
+
+         <div type="issue" n="31">
+            <p n="31">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 1. August 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C31">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970801|1|100.0|0"/>
+               <figDesc> A lady and a gentleman are seated, possibly in an Asian-themed garden or a
+                  coffee place. In the background, there are bamboo-made umbrellas and flowers
+                  resembling bamboo. An oriental teapot is placed in front of them. The lady is
+                  showing one of the cards from the deck to the older gentleman, who happens to be
+                  the father of the lady's companion, while he smokes a cigar.</figDesc>
+               <head type="secondary_title">Väterliche Drohung.</head>
+               <p><said who="#Vater" aloud="true">Zugegeben, Sie sind schön zugegeben, Sie können
+                     einen Mann verrückt machen, aber die Kollheiten die mein Sohn für Sie begeht,
+                     müssen doch aufhören – und wenn ich selbst sie statt feiner begehen müßte.
+                  </said></p>
+            </figure>
+         </div>
+
+         <div type="issue" n="32">
+            <p n="32">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 8. August 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C32">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970808|1|100.0|0"/>
+               <figDesc>A lady and a gentleman are seated in a cafe, possibly during the night,
+                  enjoying drinks together. The lady holds a glass in her hand, while the gentleman
+                  holds a bottle of Champagne or Sekt. In front of the gentleman, there is a bowl of
+                  ice to keep the bottle chilled. </figDesc>
+               <head type="secondary_title">Sommer = Pallionen.</head>
+               <p><said who="#dame12" toWhom="#herr9" aloud="true">Das ist aber die letzte Gläschen,
+                     nun keinen Trophen mehr. </said></p>
+               <p><said who="#herr9" toWhom="#dame12" aloud="true">Na, ein Gläschen noch wird dem
+                     Glanz dieser schönen Augen gewiß nicht abträglich sein </said></p>
+               <p><said who="#dame12" toWhom="#herr9" aloud="true">- Nein, nein, mehr als drei
+                     vertrag ich nicht, dann wird’s g’fährlich...Ein einziges Mal hab ich mich zu
+                     mehr verleiten lassen – und seitdem bin ich vorsichtig geworden.</said></p>
+            </figure>
+            <p>Diese Nummer ist 12 Seiten stark.</p>
+         </div>
+
+         <div type="issue" n="33">
+            <p n="33">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 15. August 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C33">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970815|1|100.0|0"/>
+               <figDesc> The household, comprising the husband, a young lady, and an Oberlieutenant,
+                  engage in conversation. The young lady and the husband read a note brought by the
+                  Oberlieutenant, who stands and salutes the married couple. In the background, an
+                  Asian bong with inscriptions is visible, indicating that the setting may be the
+                  married couple's home.</figDesc>
+               <head type="secondary_title">Einquartierung.</head>
+               <p><hi rend="bold">Hausherr und Gatte: </hi><said who="#Gatte" toWhom="#ol_2"
+                     aloud="true">Ist uns gewiß eine Auszeichnung, Herr Oberlieutenant; ich war nur
+                     ein Bischen überrascht, weil der Herr Major es die Jahre her als sein gutes
+                     Recht zu betrachten schien, hier einquartiert zu sein. </said></p>
+               <p><hi rend="bold">Oberlieutenant</hi><said who="#ol_2" toWhom="#Gatte" aloud="true"
+                     >Aeltere Rechte müssen den jüngeren weichen, das ist nun einmal so bei
+                     Einquartierungen.</said></p>
+               <p><hi rend="bold">Die junge Frau:</hi><said who="#junge_Frau" aloud="false">(lächelt
+                     still vor sich hin...)</said></p>
+            </figure>
+         </div>
+
+         <div type="issue" n="34">
+            <p n="34">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 22. August 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C34">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970822|1|100.0|0"/>
+               <figDesc> Two ladies are at the cyclist shop, where a cycle repairer is inspecting
+                  their bikes. Both ladies are dressed in cycling attire of the times, wearing
+                  trousers and long socks. One of the ladies is removing her trousers, while the
+                  other is taking off her jacket. The cyclist focuses on examining the bicycle for
+                  repairs.</figDesc>
+               <head type="secondary_title">All geil.</head>
+               <p><hi rend="bold">Radler</hi><said who="#Radler" toWhom="#Radlerin" aloud="true">War
+                     das ein scharfer Spurt! Ich mache den Damen mein Kompliment – mein Pneumatic
+                     ist ja völlig ausgepumpt.</said></p>
+               <p><hi rend="bold">Radlerin</hi><said who="#Radlerin" toWhom="#Radler" aloud="true"
+                     >O, wir haben schon mit Herren Partien gemacht, nach denen nicht bloß die
+                     Pneumatics, sondern auch die Herren ausgepumpt waren...</said></p>
+            </figure>
+            <p>Diese Nummer ist 12 Seiten stark.</p>
+         </div>
+
+         <div type="issue" n="35">
+            <p n="35">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 29. August 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C35">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970829|1|100.0|0"/>
+               <figDesc>A hunter lady, dressed in her 1900s hunting attire, holds a gun and
+                  converses with the old Hunter, who carries a cane. Behind the lady stands another
+                  figure, also clad in hunting attire and holding a rifle, likely her husband. They
+                  are situated somewhere in the woods, likely engaged in a hunting
+                  expedition.</figDesc>
+               <head type="secondary_title"><hi rend="uppercase">Waidman’s Weisheit.</hi></head>
+               <p><hi rend="bold">Der Jäger: </hi><said who="#Jäger" toWhom="#Jägerin" aloud="true"
+                     >Wissen’s, gnÄ‘ Fräul’n , den Wind muß man dem Wild abg’winnen und den Blick
+                     muß man hab’n, wo’s wechselt..</said></p>
+               <p><hi rend="bold">Die schöne Liebesjägerin</hi><said who="#Jägerin" toWhom="#Jäger"
+                     aloud="true">Das werden wir schon besorgen. Ich pfleg‘ dem Wild Alles
+                     abzugewinnen und auf den Wechsel versteh‘ ich mich schon gar...</said></p>
+            </figure>
+         </div>
+
+         <div type="issue" n="36">
+            <p n="36">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 5. September 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C36">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970905|1|100.0|0"/>
+               <figDesc> A lady lifts the skirts of her dress to reveal her ankle bracelet to the
+                  jealous lover. Both the jealous lover and the foolish character gaze at her
+                  bracelet. </figDesc>
+               <head type="secondary_title">Eifersucht Narrenlogik. </head>
+               <p><hi rend="bold">Die Dame:</hi><said who="#dame13"
+                     toWhom="#eifersüchtige #narr_herr" aloud="true">Nun, wie gefällt Dir diese neue
+                     Mode mit den Fuß-bracelets?</said></p>
+               <p><hi rend="bold">Der Eifersüchtige:</hi><said who="#eifersüchtige" toWhom="#dame13"
+                     aloud="true">Wüthend schön! Sonst hat gat nichts gefehlt – jetzt wird Jede gar
+                     närrisch darauf sein, das Kleid zu heben, um den Schmuck am fuße zu
+                     zeigen.</said></p>
+               <p><hi rend="bold">Der Narr:</hi><said who="#narr_herr"
+                     toWhom="#eifersüchtige #dame13" aloud="true">Aber das ist ja noch immer besser,
+                     als wenn sie das Kleid hebt, bloß um den fuß zu zeigen...</said></p>
+            </figure>
+            <p>Diese Nummer ist 10 Seiten stark.</p>
+         </div>
+
+         <div type="issue" n="37">
+            <p n="37">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 12. September 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C37">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970912|1|100.0|0"/>
+               <figDesc> A lady converses with an old high-ranking military soldier, both holding
+                  glasses and a bottle of Champagne. In the background, another soldier is seen
+                  playing cards. </figDesc>
+               <head type="secondary_title">Suppolisition. </head>
+               <p><said who="#dame14" toWhom="#herr11" aloud="true">Denken Sie, Allercharmanteste,
+                     ich bin der Feind, Sie find die Festung und ich eröffne die Laufgräben gegen
+                     Sie...</said></p>
+               <p><said who="#herr11" toWhom="#dame14" aloud="true">Ich würde Ihnen rathen, die
+                     Festung lieber durch Bestechung zum Capituliren zu bringen, das ist
+                     sicherer...</said></p>
+            </figure>
+         </div>
+
+         <div type="issue" n="38">
+            <p n="38">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 19. September 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C38">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970919|1|100.0|0"/>
+               <figDesc>The scene unfolds backstage at the Schlosstheater. A baron assists one of
+                  the female performers in putting on her shoe. The theater director observes this
+                  with shock, while another female performer prepares to leave for the stage, only
+                  to glance back at the baron's actions before departing.</figDesc>
+               <head type="secondary_title"><hi rend="uppercase"><placeName ref="Th">Schlosstheater
+                        Dilletanten.</placeName></hi></head>
+               <p><hi rend="bold">Regisseur des Haustheaters:</hi><said who="#regisseur"
+                     toWhom="#baron" aloud="true">Aber, Herr Baron, Sie scheinen ja die Rolle des
+                     Liebhabers mit der des Garderobiers zu verwechseln?</said></p>
+               <p><hi rend="bold">Baron:</hi><said who="#baron" toWhom="#regisseur" aloud="true"/>Im
+                  Gegentheil, ich trachte nur, die Liebhaberrolle bis in ihre Konsequenzen
+                  durchzuführen</p>
+            </figure>
+            <p>Diese Nummer ist 10 Seiten stark.</p>
+         </div>
+
+         <div type="issue" n="39">
+            <p n="39">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 26. September 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C39">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18970926|1|100.0|0"/>
+               <figDesc>Three young ladies sit together on a bench, while two gentlemen walk in the
+                  background. One of the ladies, referred to as Hermine, is averting her eyes from
+                  the gentlemen. The faces of the other two ladies are not visible; one is depicted
+                  in profile, and the other has her back turned to the reader.</figDesc>
+               <head type="secondary_title">Unter intimen Freundinnen.</head>
+               <p><hi rend="bold">Die Erste (leise zur Zweiten über die Dritte)</hi><said
+                     who="#erste_dame" toWhom="#zweite_dame" aloud="true">Sieh nur, wie affectirt
+                     hermine von den zwei herren wegschielt, als ob sie sich gar nicht die Angen
+                     nach ihnen ausgedreht hätte.</said></p>
+               <p><hi rend="bold">Die Zweite</hi><said who="#zweite_dame" toWhom="#erste_dame"
+                     aloud="true"/>Sie möchte uns am liebsten ja ganz wegschielen, damit die Männer
+                  ihr gehörten...</p>
+               <p><hi rend="bold">Die Erste (sehr gutmüthig)</hi><said who="#erste_dame"
+                     toWhom="#zweite_dame" aloud="true">Und Du wärst ja schon mit einem einzigen
+                     zufrieden...</said></p>
+            </figure>
+            <p>Diese Nummer ist 12 Seiten stark.</p>
+         </div>
+
+         <div type="issue" n="40">
+            <p n="40">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 3. Oktober 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C40">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18971003|1|100.0|0"/>
+               <figDesc>A lady sits beside a writing desk in her morning garments, somewhat
+                  revealingly. Behind her, a gentleman examines a piece of paper, with other papers
+                  scattered near his feet. He holds a whip, dressed in attire suitable for hunting
+                  or horse riding of the time. An old clock is visible in the background.</figDesc>
+               <head type="secondary_title"><hi rend="uppercase">Schnitzel Jagd.</hi></head>
+               <p><said who="#herr12" toWhom="#Melitta" aloud="true">Liebe Melitta, hast Du nicht
+                     alte von Herrschaften abgelegte Liebesbriefe? Ich brauche enorm viel Papier zur
+                     heufigen Schnitzeljagd. </said></p>
+               <p><said who="#Melitta" toWhom="#herr12" aloud="true"/>Wirst Du sie ungelefen
+                  zerreißen?</p>
+               <p><said who="#herr12" toWhom="#Melitta" aloud="true">Gewiß! </said></p>
+               <p><said who="#Melitta" toWhom="#herr12" aloud="true"/>Nun, dann sei stolz aud meine
+                  Treue, ich habe dasselbe gethan.</p>
+               <p><said who="#herr12" toWhom="#Melitta" aloud="true">Ich weiß schon, weil Du in
+                     solchen Dingen das mündliche Verfahren vorziehst. </said></p>
+            </figure>
+            <p>Diese Nummer ist 12 Seiten stark.</p>
+         </div>
+
+         <div type="issue" n="41">
+            <p n="41">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 10. Oktober 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C41">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18971010|1|100.0|0"/>
+               <figDesc>A lady sits at a café, glancing around, while a young soldier, his sword
+                  attached to his side, engages in conversation with her.</figDesc>
+               <head type="secondary_title">Modern.</head>
+               <p><said who="#jsHerr" toWhom="#vDame" aloud="true">Warum so nachdenktlich, schöne
+                     Frau?</said></p>
+               <p><said who="#vDame" toWhom="#jsHerr" aloud="true"/>Denken Sie sich mein Mann will
+                  sich von mir scheiden lassen.</p>
+               <p><said who="#jsHerr" toWhom="#vDame" aloud="true">Desto besser!</said></p>
+               <p><said who="#vDame" toWhom="#jsHerr" aloud="true"/>Langweilige Geschichte! Wen
+                  werde ich dann betrügen?</p>
+            </figure>
+         </div>
+
+         <div type="issue" n="42">
+            <p n="42">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 17. Oktober 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C42">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18971017|1|100.0|0"/>
+               <figDesc>A lady stands, smoking a cigarette, while looking down at her husband. The
+                  husband sits, hugging her legs, and gazes upward toward her face.</figDesc>
+               <head type="secondary_title">In den Flitterwochen.</head>
+               <p><said who="#dame15" toWhom="#herr13" aloud="true">Siehst Du, Weibchen, wie ich
+                     Dich auf händen trage </said></p>
+               <p><said who="#herr13" toWhom="#dame15" aloud="true"/>Ja, und eines Tages wirst Du
+                  finden, daß ich Dir dabei zu viel auf dem Halse liege. </p>
+            </figure>
+            <p>Diese Nummer ist 12 Seiten stark.</p>
+         </div>
+
+         <div type="issue" n="43">
+            <p n="43">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 24. Oktober 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C43">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18971024|1|100.0|0"/>
+               <figDesc>A young lady sits, attending to her hair, while an older gentleman stands
+                  behind her, smoking a cigar.</figDesc>
+               <head type="secondary_title">Sophismen.</head>
+               <p><said who="#dame16" toWhom="#herr14" aloud="true">Gut, wir soupieren heut‘
+                     miteinander, meine Mama muß aber dabei sein.</said></p>
+               <p><said who="#herr14" toWhom="#dame16" aloud="true"/>Aber, fräulein!</p>
+               <p><said who="#dame16" toWhom="#herr14" aloud="true">Wissen S‘, ich bin ein
+                     unschuldig’s Mädel, aber meine Mutter, die kennt sich in die Männer besser
+                     aus.</said></p>
+            </figure>
+            <p>Diese Nummer ist 10 Seiten stark.</p>
+         </div>
+
+         <div type="issue" n="44">
+            <p n="44">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 31. Oktober 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C44">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18971031|1|100.0|0"/>
+               <figDesc>Two ladies are in a bedroom, with a bed in the background and a table
+                  adorned with flowers in a vase and perfume. One lady is posing, possibly in front
+                  of a mirror, wearing a scarf, while the other lady gazes at her friend and her
+                  attire.</figDesc>
+               <head type="secondary_title">Liebesmarkt.</head>
+               <p><said who="#dame18" toWhom="#dame17" aloud="true"/>Ich bin so aufrichtig, daß ich
+                  keine Geschenke von ihm annehme.</p>
+               <p><said who="#dame17" toWhom="#dame18" aloud="true">Armes, thörichtes Mädchen! Wer
+                     wird Deine Miethe bezahlen.</said></p>
+               <p><said who="#dame18" toWhom="#dame17" aloud="true"/>Wenn’s nicht anders geht – ein
+                  Ehemaliger –</p>
+               <p><said who="#dame17" toWhom="#dame18" aloud="true">Der bei dieser Gelegenheit
+                     hofft, ein Zukünftiger zu werden.</said></p>
+            </figure>
+            <p>Diese Nummer ist 10 Seiten stark.</p>
+         </div>
+
+         <div type="issue" n="45">
+            <p n="45">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 7. November 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C45">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18971107|1|100.0|0"/>
+               <figDesc>A A lady is in her powder room, with a vanity table, mirrors, and a clock
+                  visible behind her. She holds a powder puff and a small hand mirror while
+                  conversing with the gentleman, who stands at the back of the room, his back turned
+                  to her, patiently waiting for her to finish.</figDesc>
+               <head type="secondary_title"><hi rend="uppercase">Poudre.</hi></head>
+               <p><said who="#dame19" toWhom="#herr15" aloud="true"/>Warum drehst Du Dich um?</p>
+               <p><said who="#herr15" toWhom="#dame19" aloud="true">Ich habe volles Vertrauen zu Dir
+                     – ich brauchte nich zu wissen, was Du hinter meinem Rücken thust. </said>
+               </p>
+               <p><said who="#dame19" toWhom="#herr15" aloud="true"/>Bravo! Du wirst ein famoser
+                  Ehemann werden. </p>
+            </figure>
+            <p>Diese Nummer ist 10 Seiten stark.</p>
+         </div>
+
+         <div type="issue" n="46">
+            <p n="46">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 14. November 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C46">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18971114|1|100.0|0"/>
+               <figDesc> A lady in her horse riding attire converses with the Oberlieutenant. In the
+                  background, two horses are visible, along with an individual who appears to be a
+                  horsekeeper.</figDesc>
+               <head type="secondary_title"><hi rend="uppercase">Sport.</hi></head>
+               <p><said who="#dame20" toWhom="#ol_3" aloud="true"/>Allein mit Ihnen? Herr
+                  Oberlieutenant, das ist zu gefährlich!</p>
+               <p><said who="#ol_3" toWhom="#dame20" aloud="true">Aber Fräulein müssen nicht immer
+                     gleich das Schlimmste denken.</said>
+               </p>
+               <p><said who="#ol_3" toWhom="#dame20" aloud="true"/>Ja, das hat noch Jeder
+                  gesagt!</p>
+            </figure>
+            <p>Diese Nummer ist 12 Seiten stark.</p>
+         </div>
+
+         <div type="issue" n="47">
+            <p n="47">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 21. November 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C47">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18971121|1|100.0|0"/>
+               <figDesc> A lady serves tea to her Lieutenant friend, who is seated on a sofa. The
+                  Lieutenant observes the lady as she prepares the tea.</figDesc>
+               <head type="secondary_title">Wiener Humoresken.</head>
+               <p><said who="#dame21" aloud="true"/>Mein lieber Freund, zu dem Stück darfft Du nicht
+                  ins Theater – Du bist zwar ein Lieutenant, aber Du könntest mir doch verdorben
+                  werden.</p>
+            </figure>
+            <p>Diese Nummer ist 12 Seiten stark.</p>
+         </div>
+
+
+         <div type="issue" n="48">
+            <p n="48">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 28. November 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C48">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18971128|1|100.0|0"/>
+               <figDesc>A lady holds her skirts and gazes at the garter that fell to the floor. In
+                  the background, her love interest sits on the sofa, observing the lady's legs
+                  skeptically, perhaps pondering what the lady's mom said.</figDesc>
+               <head type="secondary_title">Ominoes</head>
+               <p><said who="#dame22" toWhom="#herr16" aloud="true"/>Himmel! Mein Strumpfband ist
+                  mir aufgegangen. </p>
+               <p><said who="#herr16" toWhom="#dame22" aloud="true">Nun, was weiter?</said>
+               </p>
+               <p><said who="#dame22" toWhom="#herr16" aloud="true"/>Meine Mutter hat gesagt, da
+                  wird Einem der Liebhaber untreu. </p>
+               <p><said who="#herr16" toWhom="#dame22" aloud="true">Aber welcher, sagt das Orakel
+                     nicht?</said></p>
+            </figure>
+            <p>Diese Nummer ist 12 Seiten stark.</p>
+         </div>
+
+         <div type="issue" n="49">
+            <p n="49">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 5. December 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C49">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18971205|1|100.0|0"/>
+               <figDesc> Two ladies are in a bedroom. One of the ladies, who has an admirer, is
+                  getting ready, while the other lady sits on a chair and engages in conversation
+                  with her as she prepares.</figDesc>
+               <head type="secondary_title"><hi rend="uppercase">Modernste Frauen. </hi></head>
+               <p><said who="#dame23" toWhom="#dame24" aloud="true"/>Mein Verehrer ist fruchtbar
+                  eifersüchtig. </p>
+               <p><said who="#dame24" toWhom="#dame23" aloud="true">Gibst Du ihm Grund dazn?</said>
+               </p>
+               <p><said who="#dame24" toWhom="#dame23" aloud="true"/>Leider nicht!</p>
+               <p><said who="#dame24" toWhom="#dame23" aloud="true">Na, wenn Due so dumm bist, hat
+                     er ja vollkommen recht.</said>
+               </p>
+            </figure>
+            <p>Diese Nummer ist 12 Seiten stark.</p>
+         </div>
+
+         <div type="issue" n="50">
+            <p n="50">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 12. December 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C50">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18971212|1|100.0|0"/>
+               <figDesc>A lady and a gentleman are at the ice rink, both wearing ice skates. In the
+                  background, people can be seen gliding on the ice with their skates.</figDesc>
+               <head type="secondary_title"><hi rend="uppercase">Eis = Blumen </hi></head>
+               <p><said who="#dame25" toWhom="#herr17" aloud="true"/>Sie sollten mein Lehrer und
+                  Führer sen. Ich habe volles Vertrauen, daß Sie darauf achten, daß ich beim
+                  Eislaufen keinen fehltritt mache. </p>
+               <p><said who="#herr17" toWhom="#dame25" aloud="true">Bloß beim Eislaufen?</said>
+               </p>
+            </figure>
+            <p>Diese Nummer ist 14 Seiten stark.</p>
+         </div>
+
+         <div type="issue" n="51">
+            <p n="51">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 19. December 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C51">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18971219|1|100.0|0"/>
+               <figDesc>A lady sits at the writing desk, holding a letter in her hand, while a
+                  gentleman, smoking a cigar, leans over her shoulder to see what has been written
+                  on the letter.</figDesc>
+               <head type="secondary_title"><hi rend="uppercase">Maneuvre. </hi></head>
+               <p><said who="#herr18" toWhom="#dame26" aloud="true"/>Was schreibt er Dir?</p>
+               <p><said who="#dame26" toWhom="#herr18" aloud="true">Er macht mir einen
+                     Antrag.</said></p>
+               <p><said who="#herr18" toWhom="#dame26" aloud="true"/>Einen ehrbaren?</p>
+               <p><said who="#dame26" toWhom="#herr18" aloud="true">Natürlich! Er will mir tausend
+                     Gulden monatlich und eine Equipage geben. </said></p>
+            </figure>
+            <p>Diese Nummer ist 12 Seiten stark.</p>
+         </div>
+
+         <div type="issue" n="52">
+            <p n="52">
+               <title type="main">Wiener Caricaturen</title>
+               <placeName ref="#V">Wien</placeName><date>Sonntag den 26. December 1897.</date><lb/>
+               Preis einer Nummer <lb/><measure type="Price" quantity="15" unit="Kreuzer">15 Kreuzer
+               </measure> = <measure type="Price" quantity="40" unit="Pfennig">40 Pfennig
+               </measure><lb/>Erscheinen <lb/><date>Jeden Sonntag.</date><lb/></p>
+            <figure type="dialogue" xml:id="C52">
+               <graphic
+                  url="https://anno.onb.ac.at/cgi-content/annoshow?call=wcc|18971226|1|100.0|0"/>
+               <figDesc> A lady sits on a table, looking at a ring in a box held in her hand.
+                  Another box containing a necklace stands on the table beside her. A gentleman
+                  stands behind her.</figDesc>
+               <head type="secondary_title"><hi rend="uppercase">Mistletoe.</hi></head>
+               <p><said who="#dame27" aloud="true"/>Reizend! Was soll die arme,schlecht besefigte
+                  Jugend machen, wenn man so schweres Brillantengeschütz gegen sie auffahren läßt?
+                  Bleibt nicht Anderes übrig, als die weiße Flaffe aufzuhilfen. </p>
+            </figure>
+            <p>Diese Nummer ist 12 Seiten stark.</p>
+         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </body>
+   </text>
+</TEI>
